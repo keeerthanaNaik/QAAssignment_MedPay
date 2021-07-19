@@ -1,0 +1,92 @@
+driver_path_IE=./Drivers/IEDriverServer.exe
+driver_value_IE=webdriver.ie.driver
+browser_name_IE=IE
+
+#--For Chrome driver--!
+
+driver_path_chrome=./Drivers/chromedriver.exe
+driver_value_chrome=webdriver.chrome.driver
+browser_name_chrome=chrome
+
+url=https://testing.d3eymc78cqte40.amplifyapp.com
+
+DownloadDirectory_path=C:\\Users\\keerthana.naik\\Downloads
+path=C:\\Users\\keerthana.naik\\eclipse-workspace\\selenium_ER\\ICEG\\Documents\
+FileName_xpath=Employee
+#------ENTER YOUR CREDENTIALS HERE--------!
+eid=TestUser123
+password=123456
+
+
+email1=
+password1=
+email2=test2@test2.com
+password2=
+email3=
+password3=test3
+email4=invalidemail
+password4=invalidpassword
+email5=existingemail
+password5=exstingpassword
+email5=invalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalid
+password5=passwordinvalidinvalidvvinvalidpasswordinvalidinvalidvvinvalidvvpassword
+email6=e
+password6=p
+OkButton=//button[text()='LogOut']
+
+
+#---Web Elements to Login Page---!
+eid_element_xpath=//input[@id='username']
+password_element_xpath=//input[@name="password"]
+Login=//button[@type='submit']
+
+Orders--------------------------!
+PlaceAnOrder=//*[@id="root"]/div/div[2]/div/div[1]/button
+Submit=//button[@type='submit']
+PartnerOrderID=//input[@id='partner_order_id']
+PartnerOrderIDValue=1212121226
+PaymentCollection=//select[@id='payment_collection']
+DeliveryPartner=//select[@id='delivery_partner']
+Name=//input[@id='name']
+NameValue=test
+Mobile=//input[@name='mobile']
+MobileValue=9999999999
+AlternameMobile=//input[@name='alternative_mobile']
+AlternameMobileValue=8888888888
+Email=//input[@id='email']
+EmailValue=test@gmail.com
+Address=//input[@id='address']
+AddressValue=xyz
+LandMark=//input[@id='landmark']
+LandMarkValue=Near bellandur tech park
+PinCode=//input[@name='pin_code']
+PinCodeValue=577777
+City=//input[@id='city']
+CityValue=Bangalore
+State=//input[@id='state']
+StateValue=Karnataka
+Doctor=//input[@id='doctor']
+DoctorName=xyz
+ChooseFile=//input[@type='file']
+ChooseFileValue=C:\Users\keerthana.naik\QA Assignment.pdf
+MedicineName=//input[@id='medicineName']
+MedicineNameValue=Crocin
+ExportData=//button[contains(text(),"Export Data")]
+LogOut=//button[contains(text(),"LogOut")]
+Menu=//button[@class='chakra-button css-zke2o8']
+SelectMedicine=(//p[@class='chakra-text css-0'])[20]
+CrossButton=//button[@aria-label='Cancel order']
+YesButton=//button[@class='chakra-button css-1guk514']
+Reason=//select[@id='reason']
+SubmitReason=//button[@class='chakra-button css-s2npsv']
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Test.LoginScenarios">
+        <methods>
+          <include name="login"/>
+          <include name="OrdersPageWorkFlow"/>
+          <include name="login1"/>
+          <include name="login2"/>
+        </methods>
+      </class> <!-- com.Test.LoginScenarios -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->

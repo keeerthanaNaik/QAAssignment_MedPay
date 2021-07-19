@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-19T15:56:11Z" name="Suite" finished-at="2021-07-19T15:57:14Z" duration-ms="62633">
+    <groups>
+    </groups>
+    <test started-at="2021-07-19T15:56:11Z" name="Test" finished-at="2021-07-19T15:57:14Z" duration-ms="62633">
+      <class name="com.Test.LoginScenarios">
+        <test-method is-config="true" signature="reportInitiation()[pri:0, instance:com.Test.LoginScenarios@769a1df5]" started-at="2021-07-19T21:26:11Z" name="reportInitiation" finished-at="2021-07-19T21:26:11Z" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitiation -->
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.Test.LoginScenarios@769a1df5]" started-at="2021-07-19T21:26:11Z" name="initializeDriver" description="initializing Driver" finished-at="2021-07-19T21:26:14Z" duration-ms="2808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.Test.LoginScenarios@769a1df5]" started-at="2021-07-19T21:26:14Z" name="beforeTest" finished-at="2021-07-19T21:26:14Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login()[pri:0, instance:com.Test.LoginScenarios@769a1df5]" started-at="2021-07-19T21:26:14Z" name="login" finished-at="2021-07-19T21:26:22Z" duration-ms="8175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Test.LoginScenarios@769a1df5]" started-at="2021-07-19T21:26:22Z" name="tearDown" finished-at="2021-07-19T21:26:23Z" duration-ms="958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=AccenLoginTest.login()[pri:0, instance:com.Test.LoginScenarios@769a1df5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.Test.LoginScenarios@769a1df5]" started-at="2021-07-19T21:26:23Z" name="beforeTest" finished-at="2021-07-19T21:26:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="OrdersPageWorkFlow()[pri:0, instance:com.Test.LoginScenarios@769a1df5]" started-at="2021-07-19T21:26:23Z" name="OrdersPageWorkFlow" finished-at="2021-07-19T21:27:01Z" depends-on-methods="com.Test.AccenLoginTest.login" duration-ms="37364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrdersPageWorkFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Test.LoginScenarios@769a1df5]" started-at="2021-07-19T21:27:01Z" name="tearDown" finished-at="2021-07-19T21:27:01Z" duration-ms="277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrdersPageWorkFlow status=SUCCESS method=OrdersPage.OrdersPageWorkFlow()[pri:0, instance:com.Test.LoginScenarios@769a1df5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="login1()[pri:0, instance:com.Test.LoginScenarios@769a1df5]" started-at="2021-07-19T21:27:01Z" name="login1" finished-at="2021-07-19T21:27:07Z" depends-on-methods="com.Test.OrdersPage.OrdersPageWorkFlow" duration-ms="6312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.Test.LoginScenarios@769a1df5]" started-at="2021-07-19T21:27:01Z" name="beforeTest" finished-at="2021-07-19T21:27:01Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Test.LoginScenarios@769a1df5]" started-at="2021-07-19T21:27:07Z" name="tearDown" finished-at="2021-07-19T21:27:08Z" duration-ms="310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login1 status=SUCCESS method=LoginScenarios.login1()[pri:0, instance:com.Test.LoginScenarios@769a1df5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="login2()[pri:0, instance:com.Test.LoginScenarios@769a1df5]" started-at="2021-07-19T21:27:08Z" name="login2" finished-at="2021-07-19T21:27:11Z" depends-on-methods="com.Test.LoginScenarios.login1" duration-ms="3521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login2 -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.Test.LoginScenarios@769a1df5]" started-at="2021-07-19T21:27:08Z" name="beforeTest" finished-at="2021-07-19T21:27:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Test.LoginScenarios@769a1df5]" started-at="2021-07-19T21:27:11Z" name="tearDown" finished-at="2021-07-19T21:27:12Z" duration-ms="386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login2 status=SUCCESS method=LoginScenarios.login2()[pri:0, instance:com.Test.LoginScenarios@769a1df5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Test.LoginScenarios@769a1df5]" started-at="2021-07-19T21:27:12Z" name="closeBrowser" finished-at="2021-07-19T21:27:14Z" duration-ms="2153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Test.LoginScenarios -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
